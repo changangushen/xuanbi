@@ -1,0 +1,20 @@
+{
+  "name": "玄笔 · 小说创作工作台",
+  "short_name": "玄笔",
+  "description": "移动端长篇小说创作工作台：世界观、人物、境界、剧情、伏笔、时间线与正文。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#121110",
+  "theme_color": "#121110",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

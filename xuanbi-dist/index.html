@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#121110" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="玄笔" />
+    <meta name="description" content="玄笔 · 移动端小说创作工作台" />
+    <title>玄笔</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icon.svg" />
+    <link rel="stylesheet" href="./theme.css" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        background: #121110;
+      }
+      #boot {
+        position: fixed;
+        inset: 0;
+        display: grid;
+        place-items: center;
+        color: #726a5e;
+        font: 13px/1.6 -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+        letter-spacing: 0.3em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"><div id="boot">玄 笔</div></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
